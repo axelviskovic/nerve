@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <title>WATCHER</title>
+    <meta name="watcher" content="watcher"/>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="shortcut icon" href="../images/oeil.png">
+    <link rel="stylesheet" href="../styles/watcher.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+  </head>
+    <div class="containerHeader">
+      <h1></h1>
+      <h2></h2>
+      <span></span>
+    </div>
+    <div class="containerJoueursEnLigne">
+      <h1>JOUEURS EN LIGNE</h1>
+    </div>
+    <div class="backgroundListeJoueurs">
+      <div class="joueurBackground">
+      </div>
+      <div class="joueurBackground">
+      </div>
+      <div class="joueurBackground">
+      </div>
+    </div>
+    <div class="ListeJoueurs">
+      <div class="joueurLive">
+        <h2 class="joueurPseudo"></h2>
+        <div class="nombreViewers">
+          <h1></h1>
+          <img src="../images/oeil.png" alt="oeil">
+        </div>
+      </div>
+      <div class="joueurLive">
+        <h2 class="joueurPseudo"></h2>
+        <div class="nombreViewers">
+          <h1></h1>
+          <img src="../images/oeil.png" alt="oeil">
+        </div>
+      </div>
+      <div class="joueurLive">
+        <h2 class="joueurPseudo"></h2>
+        <div class="nombreViewers">
+          <h1></h1>
+          <img src="../images/oeil.png" alt="oeil">
+        </div>
+      </div>
+    </div>
+
+    <div class="displayNoneDefi">
+      <div class="containerDefiBackground">
+        <div class="defiBackground">
+        </div>
+        <div class="defiBackground">
+        </div>
+        <div class="defiBackground">
+        </div>
+      </div>
+      <div class="containerDefi">
+        <div class="defi">
+          <h1>EMBRASSER UN INCONNU</h1>
+          <h2>50K</h2>
+        </div>
+        <div class="defi">
+          <h1>SE FAIRE TATOUER</h1>
+          <h2>100K</h2>
+        </div>
+        <div class="defi">
+          <h1>FAIRE UNE CHUTE EN PUBLIC</h1>
+          <h2>150K</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="espaceDefi">
+      <div class="containerGifDefi">
+        <h1>SÉLÉCTIONNEZ UN DÉFI QUE LE PLAYER DEVRA RÉALISER</h1>
+      </div>
+      <div class="chat">
+        <div class="message" id="firstMsg">Bienvenue dans le chat, merci de rester courtois.</div>
+        <input type="text" id="msgUtilisateur" placeholder="Votre message"/>
+        <input type="button" id="msgUtilisateurButton" gonClick="valenter();" value="Envoyer" />
+      </div>
+    </div>
+    <div class="containerMsgErreur">
+      <div class="msgErreur">
+        <img src="../images/danger.png" alt="danger">
+        <div class="containerTxtMsgErreur">
+          <h1><br>VOUS N'AVEZ PLUS DE CRÉDITS<br>DEVENEZ PLAYER POUR GAGNER DE L'ARGENT</h1>
+          <h2><a href="log.html" title="player">JE DEVIENS PLAYER</a></h2>
+        </div>
+      </div>
+    </div>
+    <div class="buttonSkipExperience">
+      <h5>Passer l'expérience --></h5>
+    </div>
+    <div class="skipExperiencePannel">
+      <h1>Voulez vous vraiment passer l'expérience Nerve ?</h1>
+      <h5>Vous rejoindrez directement la page d'information du film</h5>
+      <div class="skipExperiencePannelChoice">
+        <h3><a href="info.html">OUI</a></h3>
+        <h4>RETOUR</h4>
+      </div>
+    </div>
+  <audio src="../audio/defiSound.mp3" id="defiSound"></audio>
+  <script src="../scripts/watcher.js"></script>
+  </body>
+</html>
